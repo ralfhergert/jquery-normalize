@@ -1,4 +1,5 @@
-/** @preserve https://github.com/ralfhergert/jquery-normalize */
+/**@preserve https://github.com/ralfhergert/jquery-normalize
+ * jQuery wrapper for DOM normalization */
 /** Normalization is the process of joining together adjacent textNodes. In DOM
  * there is node-method called normalize specified for it, but IE apparently has
  * a bug joining two text node if they are split by a soft or regular hyphen.
