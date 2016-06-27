@@ -26,12 +26,10 @@
 	};
 	$.fn.normalize = function() {
 		if (isNativeNormalizeWorking()) { // use the native normalize
-			window.console.log('using native normalize');
 			jQuery(this).each(function(index, node) {
 				node.normalize();
 			});
 		} else { // use the fallback implementation
-			window.console.log('using fallback normalize');
 			jQuery(this).each(function(index, node) {
 				normalize(node);
 			});
